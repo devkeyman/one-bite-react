@@ -7,3 +7,5 @@
 5. > 일기 관리
 6. > Home 페이지 UI, 기능
 7. > New 페이지 UI, 기능
+8. > Edit 페이지 UI, 기능
+9. > Diary 페이지 UI, 기능 (hooks, util)
