@@ -5,7 +5,6 @@ import "./DiaryList.css";
 import { useState } from "react";
 
 const DiaryList = ({ data }) => {
-  console.log(data);
   const nav = useNavigate();
   const [sortType, setSortType] = useState("latest");
 
@@ -24,7 +23,7 @@ const DiaryList = ({ data }) => {
   };
 
   const sortedData = getSortedData();
-  console.log(sortedData);
+
   return (
     <div className="DiaryList">
       <div className="menu_bar">
